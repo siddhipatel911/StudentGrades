@@ -75,3 +75,40 @@ java studentgrades.StudentGrades
 ---
 
 ## Example Output (snippets)
+List All:
+```text
+John Smith ---- C1: 78%   C2: 84%   C3: 91%   C4: 88%
+Jane Doe   ---- C1: 92%   C2: 87%   C3: 85%   C4: 90%
+
+========================================
+Course 1 Average: 85.00%
+Course 2 Average: 85.50%
+Course 3 Average: 88.00%
+Course 4 Average: 89.00%
+```
+Student Average:
+```text
+Student Average — Jane Doe: 88.50%
+```
+
+---
+
+## What I Learned:
+- Managing variable-length data with a resizable 2D array (manual copy/append).
+
+- Parsing text-field input and computing per-row and per-column averages.
+  
+- Building StringBuilder outputs and formatting decimals.
+  
+- Wiring Swing buttons and input fields in an event-driven UI.
+
+---
+
+## Future Improvements
+- Replace manual array resizing with an ArrayList<Student> model.
+  
+- Add input validation pop-ups for missing/invalid marks.
+  
+- Persist/load students from a file (CSV) between runs.
+
+- Optional: display in a JTable with sorting.
